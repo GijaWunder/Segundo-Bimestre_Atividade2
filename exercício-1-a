@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro dias_ano
+	inteiro hora = 24
+	
+		escreva("Quantos dias tem no ano que você está? ")
+		leia (dias_ano)
+		
+		escreva("Tem ", dias_ano * hora, " horas totais no ano que você está.")
+	}
+}
