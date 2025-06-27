@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro idade
+	
+		escreva("Quantos anos você tem? ")
+		leia (idade)
+		escreva("\nSomando todas as idade que você já teve dá ", idade * (idade + 1) / 2)
+	}
+}
