@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro dias_decada = 3653
+	inteiro horas = 24
+	inteiro minutos = 60
+	
+		escreva("Uma década tem ", (dias_decada * horas) * minutos, " minutos.")
+	}
+}
