@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro idade_segundos = 977000000
+	inteiro segundos = 60
+	inteiro minutos = 60 
+	inteiro horas = 24
+	inteiro dias_ano = 365
+	
+		escreva("Se você tem 977000000 segundos de idade, você tem ", (idade_segundos / segundos)
+ / minutos / horas / dias_ano, " anos de idade.")
+	}
+}
