@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro cinco_metros = 500
+	inteiro quatro_metros = 400
+	inteiro tres_metros = 300
+	inteiro pedacos = 45
+	
+		escreva("Se o marceneiro usar uma madeira de 5 metros ele terá ", cinco_metros / pedacos, " pedaços de madeira de 45 cm e sobrará ", cinco_metros % pedacos, " cm de madeira.")
+		
+		escreva("\nSe o marceneiro usar uma madeira de 4 metros ele terá ", quatro_metros / pedacos, " pedaços de madeira de 45 cm e sobrará ", quatro_metros % pedacos, " cm de madeira.")
+
+		escreva("\nSe o marceneiro usar uma madeira de 3 metros ele terá ", tres_metros / pedacos, " pedaços de madeira de 45 cm e sobrará ", tres_metros % pedacos, " cm de madeira.")
+
+		escreva("\nA melhor escolha seria usar a madeira de 5 metros.")
+
+
+	}
+}
