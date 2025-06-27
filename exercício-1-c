@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro idade
+	inteiro dias_ano = 365
+	inteiro segundos_um_dia = 86400
+
+		escreva("Quantos anos você tem? ")
+		leia (idade)
+
+		escreva("Você tem ", (idade * dias_ano) * segundos_um_dia, " segundos de idade.")
+	}
+}
