@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro tamanho_arquivo_MB
+	inteiro velocidade_internet_Mbps
+	inteiro byte = 8
+	inteiro minutos = 60
+	
+		escreva("Qual é o tamanho do arquivo para download (MB) e qual a velocidade de um link de internet (Mbps)? ")
+		leia (tamanho_arquivo_MB, velocidade_internet_Mbps)
+		
+		escreva("Levará aproximadamente ", (tamanho_arquivo_MB * byte) / (velocidade_internet_Mbps * minutos), " minutos para o download deste arquivo.")
+	}
+}
