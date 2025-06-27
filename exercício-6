@@ -1,0 +1,11 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro minutos_leitura = 5
+	inteiro dias_total_leitura = 312
+	inteiro minutos = 60 
+		escreva("Em um ano a pessoa terá lido ", (minutos_leitura * dias_total_leitura) / minutos, " horas.")
+	}
+}
