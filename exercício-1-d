@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro chocolates
+	
+		escreva("Quantos chocolates você pretende comer na vida? ")
+		leia (chocolates)
+
+		escreva("\nNossa! Você pretende comer ", chocolates, " chocolates na vida.")
+	}
+}
