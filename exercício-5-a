@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+	real comprimento = 11.5
+	real altura = 6.3
+	
+		escreva("Usando o teorema de pitágoras do seguinte modo: comprimento² + altura² = ")
+		escreva( m.potencia(comprimento, 2.0) + m.potencia(altura, 2.0))
+		escreva ("\nContinuando a conta com a raiz quadrada √171.94, ele terá que comprar ") m.raiz(171.94, 2.0)
+		escreva(m.arredondar(13.1125893070524801, 2), " metros de fio.")
+
+	}
+}
