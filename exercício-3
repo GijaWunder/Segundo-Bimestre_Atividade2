@@ -1,0 +1,11 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro disciplinas = 6
+	inteiro horas_em_minutos = 100
+	
+		escreva("O estudante terá ", horas_em_minutos / disciplinas, " minutos e ", horas_em_minutos % disciplinas, "0 segundos para estudar cada disciplina e não sobrará tempo livre.")
+	}
+}
