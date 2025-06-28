@@ -1,0 +1,11 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real idade_segundos = 977.000000
+		real segundos_dia_mercurio = 86.400
+		real dias_ano_mercurio = 87.97
+		escreva("Se você tem 977000000 segundos de idade terrestre, você tem ", (idade_segundos / segundos_dia_mercurio) / dias_ano_mercurio , " anos de idade.")
+	}
+}
