@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro area
+	inteiro tinta = 18
+	inteiro valor = 480
+	
+		escreva("Quantos metros quadrados da área será pintado? ")
+		leia (area)
+	inteiro quantidade_tinta = area / 3
+	
+		se (quantidade_tinta > 18){
+		escreva("As latas de tinta são de 18 litros, você precisa de ", quantidade_tinta, " litros de tinta para pintar a área.")
+		}senao{
+		escreva("As latas de tinta são de 18 litros, você precisa de ", quantidade_tinta, " litros de tinta para pintar a área. E ainda sobra tinta.")
+		}
+
+		se (quantidade_tinta < 18){
+		escreva("\nVocê precisa de 1 lata de tinta.")
+		}senao{
+		escreva("\nVocê precisa de ", quantidade_tinta / tinta, " latas de tinta.")
+		}
+		
+		se (quantidade_tinta / tinta > 18){
+		escreva("\nO preço total é ", valor, " reias.")
+		}senao{
+		escreva("\nO preço total a ser pago é ", valor * (quantidade_tinta / tinta), " reias.")
+		}
+	}
+}
