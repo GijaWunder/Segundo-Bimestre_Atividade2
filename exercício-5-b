@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+		real comprimento
+		real lado 
+	
+		escreva("Me fale um comprimento e um lado: ")
+		leia (comprimento, lado)
+
+		 
+		real fio = (m.raiz(m.potencia(comprimento,2.0) + m.potencia(lado,2.0), 2.0))
+		escreva("O eletricista deverá comprar ", m.arredondar(fio, 2))
+	}
+}
