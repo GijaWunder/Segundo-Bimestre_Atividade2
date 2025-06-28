@@ -1,0 +1,36 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+		
+	real orbita_venus = 0.61519726
+	real orbita_marte = 1.8808158
+	real orbita_jupiter = 11.862615
+	real orbita_urano = 84.016846
+	real orbita_netuno = 164.79132
+	inteiro orbita_terra = 365
+		
+		escreva("Vênus demora ", orbita_venus *  orbita_terra, " dias terrestres para dar a volta no Sol.")
+		escreva("\nArredondando dá ", m.arredondar(224.54699989999997, 0), " dias terretres.")
+		escreva("\n")
+		
+		escreva("\nMarte demora ", orbita_marte * orbita_terra, " dias terrestres para dar a volta no Sol.")
+		escreva("\nArredondando dá ", m.arredondar(686.497767, 0), " dias terretres.")
+		escreva("\n")
+		
+		escreva("\nJúpiter demora ", orbita_jupiter * orbita_terra, " dias terrestres para dar a volta no Sol.")
+		escreva("\nArredondando dá ", m.arredondar(4329.854475, 0), " dias terretres.")
+		escreva("\n")
+		
+		escreva("\nUrano demora ", orbita_urano * orbita_terra, " dias terrestres para dar a volta no Sol.")
+		escreva("\nArredondando dá ", m.arredondar(30666.14879, 0), " dias terretres.")
+		escreva("\n")
+		
+		escreva("\nNetuno demora ", orbita_netuno * orbita_terra, " dias terrestres para dar a volta no Sol.")
+		escreva("\nArredondando dá ", m.arredondar(60148.8310000001, 0), " dias terretres.")
+		escreva("\n")
+	}
+}
